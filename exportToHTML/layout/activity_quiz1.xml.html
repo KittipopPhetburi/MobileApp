@@ -1,0 +1,434 @@
+<html>
+<head>
+<title>activity_quiz1.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+.s4 { color: #56a8f5;}
+.s5 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_quiz1.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:id</span><span class="s2">=&quot;@+id/main&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.MainActivity&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;ScrollView</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">tools:layout_editor_absoluteX</span><span class="s2">=&quot;-16dp&quot;</span>
+        <span class="s1">tools:layout_editor_absoluteY</span><span class="s2">=&quot;37dp&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;LinearLayout</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;16dp&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton2&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">app:srcCompat</span><span class="s2">=&quot;@android:drawable/ic_menu_revert&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;343dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;20dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;แบบทดสอบวิชา Java บทที่ 1: ชนิดข้อมูล&quot;</span>
+                <span class="s1">android:textAlignment</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;34sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span>
+                <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+                <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+                <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nข้อใดเป็นประเภทของข้อมูลพื้นฐาน (Primitive Data Types) ในภาษา Java?&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;RadioGroup</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;355dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q1a&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;A) String&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q1b&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;B) int&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q1c&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;C) Array&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q1d&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;D) Class&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/RadioGroup&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nค่าคงที่ (Constant) ใน Java กำหนดโดยการใช้คีย์เวิร์ดใด?&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;RadioGroup</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;355dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q2a&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;A) final&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q2b&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;B) const&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q2c&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;C) var&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q2d&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;D) static&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/RadioGroup&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nชนิดข้อมูล double ใช้สำหรับเก็บข้อมูลประเภทใด?&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;RadioGroup</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;355dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q3a&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;A) ตัวเลขจำนวนเต็ม&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q3b&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;B) ตัวเลขทศนิยม&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q3c&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;C) ตัวอักษร&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q3d&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;D) ค่า boolean&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/RadioGroup&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nตัวแปรชนิด boolean สามารถมีค่าใดได้บ้าง?&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;RadioGroup</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;355dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q4a&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;A) true / false&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q4b&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;B) 0 / 1&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q4c&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;C) </span><span class="s4">&amp;quot;</span><span class="s2">true</span><span class="s4">&amp;quot; </span><span class="s2">/ </span><span class="s4">&amp;quot;</span><span class="s2">false</span><span class="s4">&amp;quot;</span><span class="s2">&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q4d&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;D) A และ B&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/RadioGroup&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nค่าตั้งต้นของตัวแปรชนิด int ใน Java คืออะไร (หากไม่ได้กำหนดค่าเริ่มต้นเอง)?&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;RadioGroup</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;355dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q5a&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;A) 0&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q5b&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;B) null&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q5c&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;C) -1&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q5d&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;D) ไม่มีค่าเริ่มต้น&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/RadioGroup&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nข้อใดเป็นชนิดข้อมูลที่ใช้เก็บตัวอักษรเพียงตัวเดียวใน Java?&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;RadioGroup</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;355dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q6a&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;A) string&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q6b&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;B) char&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q6c&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;C) character&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q6d&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;D) text&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/RadioGroup&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nข้อใด ไม่ใช่ ชนิดข้อมูลพื้นฐาน (Primitive Data Type) ใน Java?&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;RadioGroup</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;355dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q7a&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;A) byte&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q7b&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;B) float&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q7c&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;C) String&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q7d&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;D) long&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/RadioGroup&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nชนิดข้อมูล byte ใน Java สามารถเก็บค่าตัวเลขได้ในช่วงใด?&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;RadioGroup</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;355dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q8a&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;A) -128 ถึง 127&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q8b&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;B) 0 ถึง 255&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q8c&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;C) -32,768 ถึง 32,767&quot; </span><span class="s0">/&gt;</span>
+
+                <span class="s0">&lt;RadioButton</span>
+                    <span class="s1">android:id</span><span class="s2">=&quot;@+id/q8d&quot;</span>
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                    <span class="s1">android:text</span><span class="s2">=&quot;D) -2,147,483,648 ถึง 2,147,483,647&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;/RadioGroup&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nแก้ไข code ให้ถูกต้อง&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nsystem.outkk.print(</span><span class="s4">&amp;quot;</span><span class="s2">hello</span><span class="s4">&amp;quot;</span><span class="s2">);&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;EditText</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/q9ans&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+                <span class="s1">android:inputType</span><span class="s2">=&quot;text&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำตอบ : &quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nแก้ไข code ให้ถูกต้อง&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;\nint number = </span><span class="s4">&amp;quot;</span><span class="s2">10</span><span class="s4">&amp;quot;</span><span class="s2">;&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;EditText</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/q10ans&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+                <span class="s1">android:inputType</span><span class="s2">=&quot;text&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำตอบ : &quot; </span><span class="s0">/&gt;</span>
+
+
+            <span class="s5">&lt;!-- เพิ่มข้อความชนิดข้อมูลอื่นๆ ตามต้องการ --&gt;</span>
+        <span class="s0">&lt;/LinearLayout&gt;</span>
+    <span class="s0">&lt;/ScrollView&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;97dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;60dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;300dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;ส่ง&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+</pre>
+</body>
+</html>

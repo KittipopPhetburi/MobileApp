@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+
+            <TextView
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="บทเรียนที่ 3 ตัวดำเนินการ"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="ตัวดำเนินการในภาษา Java"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="String concatenating operator (+)
+String concatenating operator หรือเครื่องหมายในการเชื่อมต่อ String จะใช้สำหรับต่อ String เป็น String เดียวกัน ตัวแปรแบบ String นั้นเป็นคลาสที่สร้างมาเพื่อสนับสนุนการเขียนโปรแกรมในภาษา Java เพื่อให้ง่ายขึ้น โดยเราใช้เครื่องหมาย + เมื่อใช้กับ String นั่นหมายถึงเป็นการนำมาต่อกัน
+เมื่อคุณนำ String ไปต่อกับตัวเลขโดยใช้เครื่องหมาย concatenating จะให้ตัวเลขนั้นกลายเป็น String คุณได้เห็นว่าเราได้ใช้งานมันไปบ้างแล้วจากบทเรียนก่อนหน้า ต่อไปมาดูตัวอย่างการใช้เครื่องหมาย String concatenating"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="\nAssignment operator
+Assignment operator (ตัวดำเนินการกำหนดค่า) เป็นตัวดำเนินการที่ให้กับหนดค่าให้กับตัวแปร จาก Literal หรือ Expression โดยใช้เครื่องหมายเท่ากับ (=) ตัวอย่างการใช้งานตัวดำเนินการกำหนดค่าเป็นดังนี้"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="\nArithmetic operators
+Arithmetic operators (ตัวดำเนินการทางคณิตศาสตร์) เป็นตัวนำเนินการที่เกิดจาก Operand และ Operator ตั้งแต่ 1 ตัวขึ้นไปมาคำนวณเพื่อให้ได้ผลลัพธ์ใหม่ มันทำงานร่วมกับตัวดำเนินการกำหนดค่า (=) โดยตัวดำเนินการมี 5 แบบได้แก่ + - * / %"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="\nCompound assignment
+Compound assignment ถูกใช้เพื่ออัพเดทค่าของตัวแปรจากค่าเดิมของมันที่มีอยู่ โดยมันจะเป็นรูปแบบย่อของตัวดำเนินการแบบ Arithmetic Operator และตัวดำเนินการ Bitwise operators เพื่อให้เขียนได้รวดเร็วและลดความผิดพลาดในการเขียนโปรแกรมได้มากกว่า
+Operator	Example	Equivalent to
++=	-=	*=	/=	%=	>>=	<<=	&amp;=	^=	|=	"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="\nIncrement and decrement
+ตัวดำเนินการต่อไปที่ใช้บ่อยในการเขียนโปรแกรมก็คือ Increment Operator (ตัวดำเนินการเพิ่มค่า) และ Decrement Operator (ตัวดำเนินการลดค่า) มันถูกใช้เพื่อเพิ่มหรือลดค่าของตัวแปรครั้งละ 1 โดยแบ่งออกได้เป็นดังนี้ ++(prefix) ++(postfix) --(prefix) --(postfix)"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="\nRelational and comparison operators
+Relational and comparison operators (ตัวดำเนินการเปรียบเทียบ) ใช้สำหรับเปรียบเทียบข้อมูล โดยการสร้าง expression ขึ้นมา ค่าที่ได้จากการเปรียบเทียบจากตัวดำเนินการเหล่านี้จะเป็น Boolean Value (true or false) มันมักจะใช้กับคำสั่งเปรียบเทียบเช่น if while do-while for เพื่อสร้างเงื่อนไขบางอย่าง
+==	a == b	true if `a` equal to `b`, otherwise false
+!=	a != b	true if `a` not equal to `b`, otherwise false
+<	a < b	true if `a` less than `b`, otherwise false
+>	a > b	true if `a` greater than `b`, otherwise false
+<=	a <= b	true if `a` less than or equal to `b`, otherwise false
+>=	a >= b	true if `a` greater than or equal to `b`, otherwise false"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="\nLogical operators
+Logical operators (ตัวดำเนินการตรรกศาสตร์) เป็นตัวดำเนินการที่ใช้สำหรับ expression ตั้งแต่หนึ่ง expression ขึ้นไป โดยตัวดำเนินการตรรกศาสตร์ในภาษา Java มีดังนี้
+!	Not	! true
+&amp;&amp;	And	true &amp;&amp; true
+||	Or	true || false"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="\nBitwise operators
+Bitwise operators (ตัวดำเนินการระดับบิต) จะดำเนินการกับในรูปแบบของหนึ่งบิตหรือมากกว่า หรือในตัวเลขฐานสอง โดยการนำคู่ของบิตแต่ละตัวมาคำนวณโดยการใช้หลักการของตัวดำเนินการทางคณิตศาสตร์
+&amp;	Bitwise AND
+|	Bitwise inclusive OR
+^	Bitwise exclusive OR
+~	bit inversion
+<<	Shift bits left
+>>	Shift bits right"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+
+            <!-- เพิ่มข้อความชนิดข้อมูลอื่นๆ ตามต้องการ -->
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="248dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="81dp"
+        android:text="ทำแบบทดสอบ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

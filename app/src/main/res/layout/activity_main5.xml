@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+
+            <TextView
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="บทเรียนที่ 5 เมธอด"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="เมธอดในภาษา Java"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="เมธอด เป็นกลุ่มของคำสั่งที่สร้างขึ้นมาเพื่อทำหน้าที่บางอย่าง การสร้างเมธอดจะสามารถทำให้เราใช้โค้ดนั้นซ้ำๆ โดยที่ไม่ต้องเขียนโปรแกรมใหม่
+
+เมื่อสร้างเมธอดในภาษา Java มันสามารถที่จะเรียกใช้งานได้จากส่วนใดๆ ของโปรแกรม ขึ้นกับขอบเขตและระดับการเข้าถึงที่ได้กำหนดขึ้น โดยรูปแบบในการสร้างเมธอดในภาษา Java เป็นดังนี้
+
+type name ( parameter1, parameter2, ... ) {
+    statements
+}
+
+access_modifier type name ( parameter1, parameter2, ... ) {
+    statements
+}
+type เป็นประเภทของเมธอดที่จะสร้างขึ้น โดยสามารถเป็นได้ทั้ง primitive datatype หรือ reference types ได้ และถ้าหากเมธอดไม่มีการส่งค่ากลับจะใช้คำสั่ง void
+
+name เป็นชื่อของเมธอดหรือ identifier ซึ่งมีกฏในการตั้งชื่อเช่นเดียวกันกับตัวแปร
+
+parameters เป็นลิสต์ของตัวแปรที่จะส่งเข้าไปใช้ในเมธอด โดยสามารถมีตั้งแต่ 1 ขึ้นไปหรือไม่มีก็ได้
+
+access_modifier เป็นการกำหนดระดับการเข้าถึงของเมธอด ซึ่งจะอยู่ในเรื่องของออบเจ็ค โดยมี 4 แลลคือ private protected public และ default (ไม่ต้องกำหนด)"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <!-- เพิ่มข้อความชนิดข้อมูลอื่นๆ ตามต้องการ -->
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="248dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="81dp"
+        android:text="ทำแบบทดสอบ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+
+            <TextView
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="บทเรียนที่ 1 ชนิดของข้อมูล"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="ชนิดข้อมูลในภาษา Java"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="🔹 ชนิดข้อมูลพื้นฐาน (Primitive Types) \n
+- int: จำนวนเต็ม 32 บิต \n
+- long: จำนวนเต็ม 64 บิต \n
+- float: ทศนิยม 32 บิต \n
+- double: ทศนิยม 64 บิต \n
+- char: ตัวอักษร 1 ตัว \n
+- boolean: ค่าจริง/เท็จ (true/false) \n\n
+🔹 ชนิดข้อมูลอ้างอิง (Reference Types) \n
+- String: ข้อความ \n
+- Array: อาร์เรย์ \n
+- Class: คลาส \n
+- Interface: อินเทอร์เฟซ"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <!-- เพิ่มข้อความชนิดข้อมูลอื่นๆ ตามต้องการ -->
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="248dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="81dp"
+        android:text="ทำแบบทดสอบ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

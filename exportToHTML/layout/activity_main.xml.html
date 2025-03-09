@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+.s4 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:id</span><span class="s2">=&quot;@+id/main&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.MainActivity&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;ScrollView</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">tools:layout_editor_absoluteX</span><span class="s2">=&quot;-16dp&quot;</span>
+        <span class="s1">tools:layout_editor_absoluteY</span><span class="s2">=&quot;37dp&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;LinearLayout</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;16dp&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton2&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">app:srcCompat</span><span class="s2">=&quot;@android:drawable/ic_menu_revert&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+                <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+                <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;236dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;80dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;บทเรียนที่ 1 ชนิดของข้อมูล&quot;</span>
+                <span class="s1">android:textAlignment</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;34sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;20dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;ชนิดข้อมูลในภาษา Java&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;🔹 ชนิดข้อมูลพื้นฐาน (Primitive Types) \n 
+- int: จำนวนเต็ม 32 บิต \n 
+- long: จำนวนเต็ม 64 บิต \n 
+- float: ทศนิยม 32 บิต \n 
+- double: ทศนิยม 64 บิต \n 
+- char: ตัวอักษร 1 ตัว \n 
+- boolean: ค่าจริง/เท็จ (true/false) \n\n 
+🔹 ชนิดข้อมูลอ้างอิง (Reference Types) \n 
+- String: ข้อความ \n 
+- Array: อาร์เรย์ \n 
+- Class: คลาส \n 
+- Interface: อินเทอร์เฟซ&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+
+            <span class="s4">&lt;!-- เพิ่มข้อความชนิดข้อมูลอื่นๆ ตามต้องการ --&gt;</span>
+        <span class="s0">&lt;/LinearLayout&gt;</span>
+    <span class="s0">&lt;/ScrollView&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;248dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;76dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;81dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;ทำแบบทดสอบ&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+</pre>
+</body>
+</html>

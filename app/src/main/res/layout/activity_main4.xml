@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+
+            <TextView
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="บทเรียนที่ 4 คำสั่งเลือกเงื่อนไข"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="คำสั่งเลือกเงื่อนไขในภาษา Java"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="วิธีการควบคุมการทำงานของโปรแกรมโดยคำสั่งเงื่อนไขในภาษา Java เพื่อควบคุมโปรแกรมให้ทำงานตามที่ต้องการ โดยคำสั่งเงื่อนไขในภาษา Java ที่คุณจะเรียนรู้ในบทนี้จะมีด้วยกันดังนี้
+
+คำสั่ง if
+คำสั่ง if else
+คำสั่ง else-if
+คำสั่ง switch
+Ternary Operator"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="คำสั่งเลือกเงื่อนไขในภาษา Java"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="วิธีการควบคุมการทำงานของโปรแกรมโดยคำสั่งเงื่อนไขในภาษา Java เพื่อควบคุมโปรแกรมให้ทำงานตามที่ต้องการ โดยคำสั่งเงื่อนไขในภาษา Java ที่คุณจะเรียนรู้ในบทนี้จะมีด้วยกันดังนี้
+
+คำสั่ง if
+คำสั่ง if else
+คำสั่ง else-if
+คำสั่ง switch
+Ternary Operator"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="คำสั่ง If
+ในบางครั้ง โปรแกรมของเราจะต้องทำการตามเงื่อนไขต่างๆ โดยเราสามารถใช้คำสั่ง If เพื่อใช้ในการเปรียบเทียบเงือนไขเพื่อให้โปรแกรมทำงานได้ มันมีรูปแบบการใช้งานดังนี้
+
+if (expression) {
+    statements
+}"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="คำสั่ง If
+ในบางครั้ง โปรแกรมของเราจะต้องทำการตามเงื่อนไขต่างๆ โดยเราสามารถใช้คำสั่ง If เพื่อใช้ในการเปรียบเทียบเงือนไขเพื่อให้โปรแกรมทำงานได้ มันมีรูปแบบการใช้งานดังนี้
+
+if (expression) {
+    statements
+}"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="คำสั่ง If else
+หลังจากที่คุณรู้จักวิธีการใช้งานคำสั่ง If แล้ว คำสั่งหนึ่งที่มันต้องใช้ร่วมกันคือคำสั่ง Else clause เป็นคำสั่งสำหรับไว้ให้โปรแกรมทำงานเมื่อเงื่อนไขในทำสั่ง If เป็นเท็จ ตัวอย่างการใช้คำสั่ง If-Else"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="คำสั่ง Else-If
+นอกจากนี้ คุณยังสามารถใช้คำสั่ง Else-If ในกรณีที่เงื่อนไขของคุณมีหลายเงือนไข และการทำงานในแต่ละอย่างแตกต่างกัน เราจะยกตัวอย่างใหม่ ซึ่งเป็นการประเมินเมื่อคุณได้คะแนนหลังคุณเล่นเกมจบ และนี่เป็นตัวอย่างการใช้คำสั่งทั้งหมดรวมกัน"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="คำสั่ง Else-If
+นอกจากนี้ คุณยังสามารถใช้คำสั่ง Else-If ในกรณีที่เงื่อนไขของคุณมีหลายเงือนไข และการทำงานในแต่ละอย่างแตกต่างกัน เราจะยกตัวอย่างใหม่ ซึ่งเป็นการประเมินเมื่อคุณได้คะแนนหลังคุณเล่นเกมจบ และนี่เป็นตัวอย่างการใช้คำสั่งทั้งหมดรวมกัน"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="Nested If-Else Statement
+คำสั่ง If, Else เหล่านี้ สามารถที่จะซ้อนกันได้ เหมือนที่คุณเห็นในตัวอย่างก่อนหน้า มันสามารถซ้อนกันได้ไม่จำกัด ตามหลักการเขียนโปรแกรมพื้นฐาน การซ้อนกันจะอยู่ในบล็อคคำสั่งของอีกคำสั่ง ซึ่งมันขึ้นกับโปรแกรมที่คุณเขียนและจะออกแบบมันอย่างไร สำหรับตัวอย่างเพิ่มเติม
+if ( expression ) {
+    // nested level 1
+    if ( expression) {
+        // nested level 2
+        if ( expression) {
+            ...
+        }
+    }
+} else {
+    // nested level 1
+    if ( expression) {
+
+    }
+}"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:padding="4dp"
+                android:text="คำสั่ง Switch
+Switch เป็นคำสั่งในการเลือกทำงานของเงื่อนไขที่ตรงกันเพียงแค่เงื่อนไขเดียวเท่านั้น ในการใช้ Switch นั้นจะคล้ายกับคำสั่ง Else-If clause มาดูตัวอย่างและคำอธิบายในการใช้ Switch ในภาษา Java"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <!-- เพิ่มข้อความชนิดข้อมูลอื่นๆ ตามต้องการ -->
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="248dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="81dp"
+        android:text="ทำแบบทดสอบ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

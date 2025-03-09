@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>activity_main4.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+.s4 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main4.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:id</span><span class="s2">=&quot;@+id/main&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.MainActivity&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;ScrollView</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">tools:layout_editor_absoluteX</span><span class="s2">=&quot;-16dp&quot;</span>
+        <span class="s1">tools:layout_editor_absoluteY</span><span class="s2">=&quot;37dp&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;LinearLayout</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;16dp&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton2&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">app:srcCompat</span><span class="s2">=&quot;@android:drawable/ic_menu_revert&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+                <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+                <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;236dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;80dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;บทเรียนที่ 4 คำสั่งเลือกเงื่อนไข&quot;</span>
+                <span class="s1">android:textAlignment</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;34sp&quot;</span>
+                <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;20dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำสั่งเลือกเงื่อนไขในภาษา Java&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;วิธีการควบคุมการทำงานของโปรแกรมโดยคำสั่งเงื่อนไขในภาษา Java เพื่อควบคุมโปรแกรมให้ทำงานตามที่ต้องการ โดยคำสั่งเงื่อนไขในภาษา Java ที่คุณจะเรียนรู้ในบทนี้จะมีด้วยกันดังนี้ 
+ 
+คำสั่ง if 
+คำสั่ง if else 
+คำสั่ง else-if 
+คำสั่ง switch 
+Ternary Operator&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;20dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำสั่งเลือกเงื่อนไขในภาษา Java&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;วิธีการควบคุมการทำงานของโปรแกรมโดยคำสั่งเงื่อนไขในภาษา Java เพื่อควบคุมโปรแกรมให้ทำงานตามที่ต้องการ โดยคำสั่งเงื่อนไขในภาษา Java ที่คุณจะเรียนรู้ในบทนี้จะมีด้วยกันดังนี้ 
+ 
+คำสั่ง if 
+คำสั่ง if else 
+คำสั่ง else-if 
+คำสั่ง switch 
+Ternary Operator&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำสั่ง If 
+ในบางครั้ง โปรแกรมของเราจะต้องทำการตามเงื่อนไขต่างๆ โดยเราสามารถใช้คำสั่ง If เพื่อใช้ในการเปรียบเทียบเงือนไขเพื่อให้โปรแกรมทำงานได้ มันมีรูปแบบการใช้งานดังนี้ 
+ 
+if (expression) { 
+    statements 
+}&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำสั่ง If 
+ในบางครั้ง โปรแกรมของเราจะต้องทำการตามเงื่อนไขต่างๆ โดยเราสามารถใช้คำสั่ง If เพื่อใช้ในการเปรียบเทียบเงือนไขเพื่อให้โปรแกรมทำงานได้ มันมีรูปแบบการใช้งานดังนี้ 
+ 
+if (expression) { 
+    statements 
+}&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำสั่ง If else 
+หลังจากที่คุณรู้จักวิธีการใช้งานคำสั่ง If แล้ว คำสั่งหนึ่งที่มันต้องใช้ร่วมกันคือคำสั่ง Else clause เป็นคำสั่งสำหรับไว้ให้โปรแกรมทำงานเมื่อเงื่อนไขในทำสั่ง If เป็นเท็จ ตัวอย่างการใช้คำสั่ง If-Else&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำสั่ง Else-If 
+นอกจากนี้ คุณยังสามารถใช้คำสั่ง Else-If ในกรณีที่เงื่อนไขของคุณมีหลายเงือนไข และการทำงานในแต่ละอย่างแตกต่างกัน เราจะยกตัวอย่างใหม่ ซึ่งเป็นการประเมินเมื่อคุณได้คะแนนหลังคุณเล่นเกมจบ และนี่เป็นตัวอย่างการใช้คำสั่งทั้งหมดรวมกัน&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำสั่ง Else-If 
+นอกจากนี้ คุณยังสามารถใช้คำสั่ง Else-If ในกรณีที่เงื่อนไขของคุณมีหลายเงือนไข และการทำงานในแต่ละอย่างแตกต่างกัน เราจะยกตัวอย่างใหม่ ซึ่งเป็นการประเมินเมื่อคุณได้คะแนนหลังคุณเล่นเกมจบ และนี่เป็นตัวอย่างการใช้คำสั่งทั้งหมดรวมกัน&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Nested If-Else Statement 
+คำสั่ง If, Else เหล่านี้ สามารถที่จะซ้อนกันได้ เหมือนที่คุณเห็นในตัวอย่างก่อนหน้า มันสามารถซ้อนกันได้ไม่จำกัด ตามหลักการเขียนโปรแกรมพื้นฐาน การซ้อนกันจะอยู่ในบล็อคคำสั่งของอีกคำสั่ง ซึ่งมันขึ้นกับโปรแกรมที่คุณเขียนและจะออกแบบมันอย่างไร สำหรับตัวอย่างเพิ่มเติม 
+if ( expression ) { 
+    // nested level 1 
+    if ( expression) { 
+        // nested level 2 
+        if ( expression) { 
+            ... 
+        } 
+    } 
+} else { 
+    // nested level 1 
+    if ( expression) { 
+ 
+    } 
+}&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:lineSpacingExtra</span><span class="s2">=&quot;3dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;4dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;คำสั่ง Switch 
+Switch เป็นคำสั่งในการเลือกทำงานของเงื่อนไขที่ตรงกันเพียงแค่เงื่อนไขเดียวเท่านั้น ในการใช้ Switch นั้นจะคล้ายกับคำสั่ง Else-If clause มาดูตัวอย่างและคำอธิบายในการใช้ Switch ในภาษา Java&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;18sp&quot; </span><span class="s0">/&gt;</span>
+
+
+            <span class="s4">&lt;!-- เพิ่มข้อความชนิดข้อมูลอื่นๆ ตามต้องการ --&gt;</span>
+        <span class="s0">&lt;/LinearLayout&gt;</span>
+    <span class="s0">&lt;/ScrollView&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;248dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;76dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;81dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;ทำแบบทดสอบ&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+</pre>
+</body>
+</html>
